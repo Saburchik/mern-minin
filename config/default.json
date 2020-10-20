@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "jwtSecret": "christopher nolan",
+    "mongoUri": "mongodb+srv://saburo:212121@clusters.qazrl.mongodb.net/app?retryWrites=true&w=majority"
+}
