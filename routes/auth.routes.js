@@ -34,7 +34,7 @@ router.post(
             }
 
             const hashedPassword = await bcrypt.hash(password, 12)
-            const user = new User({ email, password, hashedPassword })
+            const user = new User({ email, password: hashedPassword })
 
             await user.save()
 
@@ -79,8 +79,8 @@ router.post(
 
             const token = jwt.sign(
                 { userId: user.id },
-                config.get('jwtSecret')
-                // { expiresIn: "1h" }
+                config.get('jwtSecret'),
+                { expiresIn: "1h" }
             )
 
             res.json({ token, userId: user.id })

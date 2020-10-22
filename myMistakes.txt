@@ -3,3 +3,8 @@
 
 because of: "dev": "concurrently \"npm runserver\" \"npm run client\""
 nececcery to write "npm run server";
+
+2) Не кэшировался пароль от bcryptjs, исправный код:
+const user = new User({ email, password: hashedPassword })
+Было:
+const user = new User({ email, password, hashedPassword })
