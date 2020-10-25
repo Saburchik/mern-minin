@@ -8,3 +8,6 @@ nececcery to write "npm run server";
 const user = new User({ email, password: hashedPassword })
 Было:
 const user = new User({ email, password, hashedPassword })
+
+3) Статус 401 - если не поставить в ковычках пробел 
+const token = req.headers.authorization.split(' ')[1] // "Bearer TOKEN"
