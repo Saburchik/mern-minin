@@ -1,0 +1,16 @@
+Thanks Vladilen Minin for this full the course includes: MongoDB, ExpressJS, React and Node.js.
+
+source: https://www.youtube.com/watch?v=ivDjWYcKDZI
+
+
+
+===== My review of this video: =====
+
+I took this course with the goal..to understand how to construct the authorization and request forms. 
+Because I wanted to apply and..to enable processing of the registration in my first layout.
+I also needed an understanding works of the server and database. This course has closed many gaps.
+I'm glad I worked with JS, Node.js and of course MongoDB - it's NoSQL database. Cool.
+
+Of course, this course is not for me, since I don't know JS yet. And in the future, while studying JS, I will need to review this course.
+But I am happy that I was not afraid of errors in the TERMINAL and I started to find out what was wrong..
+And finding a solution..I was pleasantly surprised..This feelling..is amazing. And I want to do it.
